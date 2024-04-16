@@ -1,0 +1,747 @@
+*{ 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+/* Estilos para PC */
+@media (min-width: 1024px) {
+  body {
+    .start{
+      background: linear-gradient(to right, #5e93ee, #aabdf0); width: 100%;
+      height: 500px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0 auto;
+    }
+    
+    .header{
+      display: flex;
+      gap: 10px;
+      padding: 30px 0px 0px 20px;
+      color: white;
+      width: 95%;
+      justify-content: space-between;
+    
+    }
+
+    section.cards {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+
+    .button__options{
+      color: white;
+      gap: 30px;
+      display: flex;
+      
+    }
+
+
+   h2 {
+      font-size: 50px;
+      color: white;
+      padding: 150px 11px 5px 40px;
+      justify-content: left;
+      font-weight: bold;
+  
+    }
+    span {
+      font-weight: bold;
+    }
+  
+  
+    .profesion{
+      padding: 40px 100px 5px 40px;
+      color: white;
+      font-size: 20px;
+      
+    
+    }
+
+    .description{
+      padding:  20px 0px 0px 40px;
+      color: white;
+    }
+
+    .developeText{
+      padding-right: 520px;
+    }
+  
+    .name{
+      color: white;
+      padding: 20px 0px 0px 200px;
+      font-size: x-small;
+   }
+
+   .servis{
+    font-size:20px;
+   }
+
+   .i-do{
+      color:aqua ; 
+      padding: 100px 0px 10px 0px;
+      font-size: medium;
+   }
+
+    .firts__card {
+        width: 300px;
+        border-radius: 10px;
+        border-bottom: 4px solid rgba(33, 147, 176, 1);
+        text-align: center;
+        
+      } 
+  
+    .card__image {
+      width: 44px;
+      padding: 30px 0px 10px 0px; 
+      
+    }
+
+    .card__title{
+      padding: 30px 0px 10px 0px;
+      color: #000;
+    }
+
+    .card__description{
+      padding: 0px 10px 30px 10px; 
+    }
+
+    
+    .button__all{
+      height: 15px;
+      width: 70px;
+      border-radius: 30px;
+      background-color:aqua;
+      font-size: small;
+      text-align: center;
+      padding-bottom: 10px;
+      font-weight: bold;
+      color:white;
+    }
+
+    .alltext{
+      padding-top: 5px;
+    }
+
+    .button__desing{
+    
+        border: aqua 1px solid;
+        height: 15px;
+        width: 70px;
+        border-radius: 30px;
+        background-color:white;
+        font-size: small;
+        text-align: center;
+        padding-bottom: 10px;
+        font-weight: bold;
+        color:aqua ;
+    
+    }
+
+    .button{
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding-top: 30px;
+    }
+
+    .img{
+      
+      padding: 20px;
+      height:300px ;
+      object-fit: contain;
+      display: inline-flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      
+    }
+
+    .imgbanana{
+      height:180px ;
+      object-fit: contain;
+      display: inline-flex;
+      padding: 20px;
+      
+    }
+
+    /* .everyimg {
+      justify-content: center;
+      flex-wrap: wrap;
+    } */
+
+    .final{
+      background: url("./assets/pxfuel.jpg");
+      height: 550px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      
+    }
+
+    .marks {
+      width: 100px;
+      height: 100px;
+      padding: 180px 0px 0px 550px;
+    }
+
+    .tex_1{
+      display: flex;
+      padding: 30px 200px 0px 200px;
+      color: white;
+      text-align: center;
+      font-size: 20px;
+    }
+
+    .name__conclusion{
+      display: flex;
+      color: white;
+      text-align: center;
+      font-size: 25px;
+      justify-content: center;
+    }
+
+    .copyright {
+      color: white;
+    }
+
+    .blue-final {
+      background: linear-gradient(to right, #5e93ee, #aabdf0); width: 100%;
+      height: 500px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 20px 20px 20px 20px;
+    }
+
+    section.blue_final {
+      background-color: rgb(110, 196, 196);
+    }
+
+    img.final__app {
+      height: 19px;
+      padding-top: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .button__circule{
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      padding-top: 30px;
+    }
+
+    .button__face{
+      
+      width: 43px;
+      border-radius: 30px;
+      background-color:gainsboro;
+      font-size: small;
+      text-align: center;
+      padding-bottom: 8px;
+      font-weight: bold;
+      color:white;
+    }
+
+    .img__apps {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .copyright{
+      color: white;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+    }
+
+
+  }
+}
+
+
+ /* Estilos para ipad */
+@media (min-width: 768px) and (max-width: 1023px) {
+  body  {
+    .start{
+      background: linear-gradient(to right, #5e93ee, #aabdf0); width: 100%;
+      height: 500px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 20px 20px 20px 20px;
+      margin: 0 auto;
+    }
+    
+    .header{
+      display: flex;
+      gap: 10px;
+      padding: 30px 0px 0px 20px;
+      color: white;
+    }
+
+    .button__options{
+      color: white;
+      font-size: small;
+      gap: 30px;
+      display: flex;
+      padding: 0px 0px 0px 450px;
+    }
+
+
+    h2 {
+      font-size: 50px;
+      color: white;
+      padding: 150px 11px 5px 40px;
+      justify-content: left;
+      font-weight: bold;
+    }
+
+    span {
+      font-weight: bold;
+    }
+
+
+    .profesion{
+      padding: 40px 100px 5px 40px;
+      color: white;
+    }
+
+    .description{
+      padding:  20px 0px 0px 40px;
+      color: white;
+    }
+
+    .developeText{
+      padding-right: 250px;
+    }
+
+    .name{
+      color: white;
+      padding: 20px 0px 0px 200px;
+      font-size: x-small;
+    }
+
+    .servis{
+      font-size:20px;
+     }
+  
+     .i-do{
+        color:aqua ; 
+        padding: 100px 0px 10px 0px; 
+     }
+  
+     .firts__card {
+      width: 300px;
+      border-radius: 10px;
+      border-bottom: 4px solid rgba(33, 147, 176, 1);
+      text-align: center;
+      margin: 60px auto 0;
+    }
+    
+    section.cards {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .card__image {
+      width: 44px;
+      padding: 30px 0px 10px 0px; 
+      
+    }
+  
+    .card__title{
+      padding: 30px 0px 10px 0px;
+      color: #000;
+    }
+  
+    .card__description{
+      padding: 0px 10px 30px 10px; 
+    }
+
+    .button__all{
+      height: 15px;
+      width: 70px;
+      border-radius: 30px;
+      background-color:aqua;
+      font-size: small;
+      text-align: center;
+      padding-bottom: 10px;
+      font-weight: bold;
+      color:white;
+    }
+
+    .alltext{
+      padding-top: 5px;
+    }
+
+    .button__desing{
+    
+      border: aqua 1px solid;
+      height: 15px;
+      width: 70px;
+      border-radius: 30px;
+      background-color:white;
+      font-size: small;
+      text-align: center;
+      padding-bottom: 10px;
+      font-weight: bold;
+      color:aqua ;
+    
+    }
+
+    .button{
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding-top: 30px;
+    }
+
+    .img{
+     
+      height: 220px;
+      padding: 20px;
+      object-fit: contain;
+      display: inline-flex;
+      justify-content: center;
+    }
+
+    .imgbanana{
+      height:180px ;
+      object-fit: contain;
+      display: inline-flex;
+      padding: 20px;
+      justify-content: center;
+    }
+
+    .final{
+      background: url("./assets/pxfuel.jpg");
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      
+    }
+
+    .marks {
+      width: 80px;
+      height: 80px;
+      padding: 75px 0px 0px 328px;
+    }
+
+    .tex_1{
+      display: flex;
+      padding: 30px 120px 0px 120px;
+      color: white;
+      text-align: center;
+      font-size: 15px;
+    }
+
+    .name__conclusion{
+      display: flex;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      font-size: 25px;
+    }
+
+    section.blue_final {
+      background-color: rgb(110, 196, 196);
+    }
+
+    img.final__app {
+      height: 19px;
+      padding-top: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .button__circule{
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      padding-top: 30px;
+    }
+
+    .button__face{
+      
+      width: 43px;
+      border-radius: 30px;
+      background-color:gainsboro;
+      font-size: small;
+      text-align: center;
+      padding-bottom: 8px;
+      font-weight: bold;
+      color:white;
+    }
+
+    .img__apps {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .copyright{
+      color: white;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+    }
+
+
+  }
+}
+
+
+
+
+ /* Estilos para mobile */
+@media (max-width: 767px) {
+  body {
+    .start{
+      background: linear-gradient(to right, #5e93ee, #aabdf0); width: 100%;
+      height: 500px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    
+    }
+    
+    .header{
+      display: flex;
+      gap: 10px;
+      padding: 15px 0px 0px 20px;
+      color: white;
+      width: 90%;
+      justify-content: space-between;
+    }
+
+    .button__options{
+      color: white;
+      font-size: small;
+      gap: 30px;
+      display: flex;
+      align-items: center;
+      
+    }
+
+
+    h2 {
+      font-size: 50px;
+      color: white;
+      padding: 80px 11px 5px 40px;
+      justify-content: left;
+      font-weight: bold;
+    }
+
+    span {
+      font-weight: bold;
+    }
+
+
+    .profesion{
+      padding: 20px 100px 5px 40px;
+      color: white;
+    }
+
+    .description{
+      padding:  20px 0px 0px 40px;
+      color: white;
+    }
+
+    .developeText{
+      padding-right: 100px;
+    }
+
+    .name{
+      color: white;
+      padding: 20px 0px 0px 200px;
+      font-size: x-small;
+    }
+
+    .servis{
+      font-size:20px;
+   }
+
+   .i-do{
+      color:aqua ; 
+      padding: 100px 0px 10px 0px; 
+   }
+
+   .firts__card {
+      width: 300px;
+      border-radius: 10px;
+      border-bottom: 4px solid rgba(33, 147, 176, 1);
+      text-align: center;
+      margin: 60px auto 0;
+    }
+
+    section.cards {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+    .card__image {
+    width: 44px;
+    padding: 30px 0px 10px 0px; 
+    
+    }
+
+    .card__title{
+      padding: 30px 0px 10px 0px;
+      color: #000;
+    }
+
+    .card__description{
+      padding: 0px 10px 30px 10px; 
+    }
+
+    .button__all{
+      height: 15px;
+      width: 100px;
+      border-radius: 30px;
+      background-color:aqua;
+      font-size: small;
+      text-align: center;
+      padding-bottom: 10px;
+      font-weight: bold;
+      color:white;
+    }
+
+    .alltext{
+      padding-top: 5px;
+    }
+
+    .button__desing{
+    
+        border: aqua 1px solid;
+        height: 15px;
+        width: 100px;
+        border-radius: 30px;
+        background-color:white;
+        font-size: small;
+        text-align: center;
+        padding-bottom: 10px;
+        font-weight: bold;
+        color:aqua ;
+    
+    }
+
+    .button{
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      padding-top: 30px;
+    }
+
+    .img{
+      height: 220px;
+      padding: 20px;
+      object-fit: contain;
+      display: inline-flex;
+      justify-content: center;
+      
+    }
+    .imgbanana{
+      height:180px ;
+      object-fit: contain;
+      display: inline-flex;
+      padding: 20px;
+    }
+
+    .final{
+      background: url("./assets/pxfuel.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .marks {
+      width: 50px;
+      height: 50px;
+      padding: 50px 0px 0px 150px;
+    }
+
+    .tex_1{
+      display: flex;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+
+    .name__conclusion{
+      
+      color: white;
+      text-align: center;
+      padding: 5%;
+      
+    }
+
+
+    section.blue_final {
+      background-color: rgb(110, 196, 196);
+    }
+
+    img.final__app {
+      height: 19px;
+      padding-top: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .button__circule{
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      padding-top: 30px;
+    }
+
+    .button__face{
+      
+      width: 43px;
+      border-radius: 30px;
+      background-color:gainsboro;
+      font-size: small;
+      text-align: center;
+      padding-bottom: 8px;
+      font-weight: bold;
+      color:white;
+    }
+
+    .img__apps {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .copyright{
+      color: white;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+    }
+
+  }
+}
